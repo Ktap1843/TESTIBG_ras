@@ -1,0 +1,54 @@
+# ⛔️ Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+.cache/
+.pytest_cache/
+
+# ⛔️ FastAPI/Uvicorn logs
+*.log
+*.log.*
+
+# ⛔️ MongoDB data
+mongodb-data/
+
+# ⛔️ Конфигурационные и секретные файлы окружения
+.env
+*.secret
+config.json
+
+# ⛔️ VS Code
+.vscode/
+*.code-workspace
+
+# ⛔️ PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ⛔️ Docker
+*.dockerignore
+Dockerfile.*
+
+# ⛔️ Системные файлы Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ⛔️ Логи и результаты тестов (по необходимости)
+logs/
+test-results/
+reports/
+
+# ⛔️ Прочие файлы, которые не должны попадать в репозиторий
+coverage.xml
+htmlcov/
